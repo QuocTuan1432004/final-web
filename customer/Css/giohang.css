@@ -1,0 +1,174 @@
+.cart-none-product {
+  height: 320px;
+}
+
+.main-content {
+  padding: 30px 0px;
+  margin: 120px auto;
+  max-width: 85%;
+}
+h2 {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 550;
+}
+.cart-tilte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding-top: 125px;
+}
+
+.return-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.return-home > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  width: 300px;
+  height: 40px;
+  padding: 20px 0px;
+  background-color: #eb412f;
+  border: 2px solid white;
+  color: white;
+}
+/* Giỏ hàng có hàng */
+.cart-have-product {
+  /* display: flex;
+  justify-content: center; */
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  font-size: 15px;
+  column-gap: 10px;
+  margin-top: 10px;
+}
+.product-list {
+  padding-right: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+thead {
+  font-weight: 600;
+  border-bottom: 3px solid rgb(217, 215, 215);
+}
+
+tr {
+  height: 30px;
+  border-bottom: 1px solid rgb(217, 215, 215);
+}
+
+td {
+  margin-right: 20px;
+}
+
+.product-price,
+.product-subtotal {
+  font-weight: 550;
+}
+.product-name-in-cart,
+.product-price {
+  text-align: left;
+}
+
+.product-quantity {
+  text-align: center;
+}
+.product-subtotal {
+  text-align: right;
+}
+.product-in-cart {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.img-cart {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.but {
+  display: flex;
+  margin: 0 20px;
+}
+
+.quantity-button span {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.product-total {
+  padding-left: 20px;
+  text-align: left;
+  border-left: 0.8px solid gainsboro;
+  font-size: 16px;
+}
+
+.product-total tbody td {
+  text-align: right;
+}
+
+.product-total tbody th {
+  padding: 20px 0px;
+}
+
+.delivery p {
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+}
+.add-cart-button {
+  padding-top: 20px;
+}
+.add-payment-button > a {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  background-color: #eb412f;
+  border: 1px solid white;
+  color: white;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.add-payment-button > a:hover {
+  background-color: #f2ddbe;
+  color: black;
+  transition: 0.5s;
+}
+
+.price-wallpaper {
+  justify-content: flex-end;
+}
+
+.Return-button {
+  padding-top: 10px;
+}
+.Return-button > a {
+  border: 2px solid black;
+  padding: 5px 10px;
+  font-weight: 550;
+}
+
+.Return-button > a:hover {
+  background-color: black;
+  color: white;
+  transition: 0.8s;
+}
+/*  */
